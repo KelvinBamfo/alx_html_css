@@ -12,7 +12,7 @@ article, aside {
     overflow-y: auto;
 }
 
-article, aside {
+article {
     flex: 2;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -23,6 +23,7 @@ article, aside {
 
 aside {
     flex: 1;
+    border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
     padding: 15px;

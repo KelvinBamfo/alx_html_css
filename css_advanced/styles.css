@@ -1,0 +1,11 @@
+header, .Top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: justify;
+    background-image: url(images/Object.png);
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}

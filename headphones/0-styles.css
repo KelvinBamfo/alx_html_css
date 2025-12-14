@@ -1,0 +1,65 @@
+header, body {
+    background-image: url('images/background.jpg');
+}
+
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+
+}
+
+.hero-header a {
+    font-family: sans-pro;
+    display: inline-block;
+    margin-right: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.hero-header a:hover {
+    color: #FF6565;
+}
+
+.hero-header .logo {
+    width: 150px;
+    height: auto;
+}
+
+.hero-section {
+    text-align: center;
+}
+
+h1 {
+    font-family: sans-pro;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.hero-section p {
+    font-family: Spin-Cycle-OT;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #f8526b;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: Spin-Cycle-OT;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF6565;
+}
