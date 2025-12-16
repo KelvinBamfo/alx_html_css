@@ -9,22 +9,32 @@
 <body>
 
 <header class="hero-header">
-    <img id="logo" src="images/logo.jpg" alt="Headphones Logo" style="height:50px;">
-        <nav>
+    <img class="logo" src="images/logo.jpg" alt="Headphones Logo">
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="false">
+    <label for="nav-toggle" class="hamburger" aria-hidden="false" tabindex="0">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="visually-hidden">Toggle navigation</span>   
+    </label>
+
+        <nav id="primary-nav" class="nav-links" aria-label="primary navigation">
             <ul>
-                <a href="about.html">what we do</a>
-                <a href="results.html">our results</a>
-                <a href="contact.html">Contact US</a>
+                <a href="about.html">What we do</a>
+                <a href="results.html">Our results</a>
+                <a href="contact.html">Contact us</a>
             </ul>
         </nav>
 </header>
 
+<main>
 <section class="hero-section">
-    <h1>Welcome To Sky Headphones</h1>
-    <p>Explore our collection of high-quality headphones.</p>
-    <button onclick="calltoaction()">CALL TO ACTION</button>
-    <p>Discover the perfect sound experience with Sky Headphones.</p>
+    <h1>Welcome To Sky Headphones</h1>          <p>Explore our collection of high-quality headphones.</p>
+    <button id="cta-btn">CALL TO ACTION</button>
+    <p>The perfect sound experience with Sky Headphones.</p>
 </section>
+</main>
 
 </body>
 </html>
