@@ -123,40 +123,16 @@ a:focus, button:focus {
         z-index: 1100;
     }
 
-    .nav-toggle:checked ~ .nav-links {
+    .nav-toggle:checked ~ #nav-links {
         display: block;
-    }
-
-    .nav-toggle:checked + .hamburger .bar{
-        background-color: #FF6565;
-    }
-
-    .hamburger:focus, .nav-toggle:focus {
-        outline: 3px solid #FF6565; 
-        outline-offset: 3px;
-    }
-
-    a:focus { 
-        outline: 3px solid #FF6565; 
-        outline-offset: 3px; 
-    }
-
-    .visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        margin: -1px;
-        overflow: hidden;
-        clip: rect(1px, 1px, 1px, 1px);
-        white-space: nowrap;
     }
 
     .nav-links ul {
         flex-direction: column;
         gap: 12px;
-    }
+        padding: 0;
 
+    }
     .nav-links a {
         display: block;
         margin-bottom: 10px;
@@ -180,3 +156,5 @@ a:focus, button:focus {
         margin-bottom: 5px;
     }
 }
+
+
