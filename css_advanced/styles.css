@@ -51,21 +51,29 @@ span{
 button{
     display: block;
     border-radius: 30px;
-    background-color: hsl(271, 93%, 63%);
+    background-color: hsl(312, 68%, 50%);
     color: hsl(208, 100%, 97%);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 15px;
     margin: 20px auto;
 }
 button:hover{
-    background-color: hsla(270, 86%, 59%, 0.603);
+    background-color: hsl(312, 91%, 32%);
 }
 h2{
     color: hsl(208, 100%, 97%);
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.smile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    column-gap: 2em;
+    row-gap: 2em;
+    padding: 0 auto;
+}
 h3{
     color: hsl(0, 0%, 99%);
     text-align: center;
@@ -73,21 +81,4 @@ h3{
 p{
     color: aliceblue;
     text-align: center;
-}
-.one .two .three .four{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-}
-.second-section{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: hsl(271, 93%, 63%);
-
-}
-.five{
-    margin: 0 auto;
-    padding: 0 auto;
 }
